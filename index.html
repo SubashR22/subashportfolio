@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subash Portfolio</title>
+  <link rel="icon" type="image/png" href="profile.jpg"> 
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+<header>
+  <nav class="first">
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+  <!-- HOME SECTION -->
+  <section id="home">
+    <div class="home-container">
+      <div class="profile-left">
+        <img src="IMG-20241105-WA0009.jpg" alt="Profile Picture" />
+      </div>
+      <div class="profile-right">
+        <h1>Hi There,<br />I am <span class="highlight">Subash</span></h1>
+        <p>I am <span class="Text"></span></p>
+        <a href="#about" class="about-btn">About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="about-container">
+      <h2>About <span>Me</span></h2>
+      <div class="spacing"></div>
+      <p class="name">Hello! I'm <b>Subash</b></p>
+      <div class="spacing"></div>
+      <p>
+        I’m a passionate <b>Java Full Stack Developer</b> with expertise in Java, Spring Boot, MySQL, and web technologies.
+         I have a strong foundation in <b>backend development, database design, and building scalable applications</b>.
+          My experience spans from crafting robust backend solutions to designing seamless user experiences with <b>HTML, CSS, and JavaScript</b>. 
+      </p>
+      <div class="spacing"></div>
+      <div class="contact-info">
+        <p><strong>Email:</strong> subashravi2203@gmail.com</p>
+        <p><strong>Location:</strong> Salem, India - 636109</p>
+      </div>
+      <button class="resume-btn" onclick="window.location.href='https://drive.google.com/file/d/1oNrG1T2E_9lurEifkQguXMli4XDDo8nM/view?usp=sharing'" target="_blank">
+        Download Resume
+      </button>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education">
+    <h1 class="edu-title">🎓 My Education</h1>
+    <div class="edu-container">
+      <div class="edu-card">
+        <img src="clg photo.jpg" alt="University">
+        <div class="edu-content">
+          <h2>Bachelor of Technology in Computer Science and Engineering</h2>
+          <p>Bharathidasan University, Trichy</p>
+          <p class="edu-status">2021-2025 | <span class="pursuing">Pursuing</span></p>
+        </div>
+      </div>
+      <div class="edu-card">
+        <img src="schoolphoto.jpg" alt="School">
+        <div class="edu-content">
+          <h2>Bio/Maths</h2>
+          <p>Bharathiyar Higher Secondary School, Salem</p>
+          <p class="edu-status">2020-2021 | <span class="completed">Completed</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <h1 class="skills-title">My Skills</h1>
+    <div class="skills-border">
+      <div class="skills-grid">
+        <div class="skill-item"><img src="java.png" alt="Java"><p>Java</p></div>
+        <div class="skill-item"><img src="spring.png" alt="Spring"><p>Spring</p></div>
+        <div class="skill-item"><img src="springboot.png" alt="Spring Boot"><p>Spring Boot</p></div>
+        <div class="skill-item"><img src="mysql.png" alt="MySQL"><p>MySQL</p></div>
+        <div class="skill-item"><img src="html.png" alt="HTML"><p>HTML</p></div>
+        <div class="skill-item"><img src="css-3.png" alt="CSS"><p>CSS</p></div>
+        <div class="skill-item"><img src="java-script.png" alt="JavaScript"><p>JavaScript</p></div>
+        <div class="skill-item"><img src="git.png" alt="Git"><p>Git</p></div>
+        <div class="skill-item"><img src="postmanapi.png" alt="Postman API"><p>Postman API</p></div>
+        <div class="skill-item"><img src="python.png" alt="Python"><p>Python</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <div class="projects-title">
+      <h2 class="fas fa-laptop-code"> Projects <span class="highlight">Made</span></h2>
+    </div>
+    <div class="project-card">
+      <img src="project 1.png" alt="Weather Details" class="project-image">
+      <div class="project-content">
+        <h3 class="project-name">Real-Time Weather Forecast Web Application</h3>
+        <p class="project-tech">Tech Stack: <strong>Java, JSP, Servlet, Postman API, HTML, CSS, JavaScript</strong></p>
+        <p class="project-description">
+          Designed and developed a dynamic web application that provides real-time weather forecasts
+          based on user-input locations. Utilized OpenWeatherMap API to fetch and display essential
+          weather details such as temperature, humidity, and atmospheric pressure.
+        </p>
+        <ul class="project-features">
+          <li>Implemented Java Servlets to handle API requests and responses efficiently.</li>
+          <li>Utilized Maven for dependency management and optimized performance.</li>
+          <li>Deployed on Apache Tomcat for a seamless user experience.</li>
+          <li>Designed an intuitive frontend for enhanced user interaction.</li>
+        </ul>
+        <div class="project-link-container">
+          <button class="github-button" onclick="window.open('https://github.com/SubashR22/repo1/tree/main/weather', '_blank')">
+            <i class="fab fa-github"></i> GitHub
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="project 2.png" alt="Age Calculator" class="project-image">
+      <div class="project-content">
+        <h3 class="project-name">Age Calculator</h3>
+        <p class="project-tech">Tech Stack: <strong>HTML, CSS, JavaScript</strong></p>
+        <p class="project-description">
+          Developed a responsive web application that allows users to calculate and display their age in years, months, and days, based on their inputted date of birth.
+        </p>
+        <ul class="project-features">
+          <li>Ensured the application adapts seamlessly across various screen sizes and devices using HTML and CSS media queries.</li>
+          <li>The app provides an interactive form where users can input their date of birth and instantly view their calculated age in years, months, and days.</li>
+          <li>Implemented the logic to calculate age using JavaScript, handling edge cases and ensuring accurate results.</li>
+        </ul>
+        <div class="project-link-container">
+          <button class="github-button" onclick="window.open('https://github.com/SubashR22/repo1/tree/main/Age%20Calculator', '_blank')">
+            <i class="fab fa-github"></i> GitHub
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="project 3.png" alt="Portfolio" class="project-image">
+      <div class="project-content">
+        <h3 class="project-name">Portfolio Website</h3>
+        <p class="project-tech">Tech Stack: <strong>HTML, CSS, JavaScript</strong></p>
+        <p class="project-description">
+          This is my personal portfolio website, designed to showcase my skills, projects, and experience as a web developer. The website provides an interactive and visually appealing platform for potential employers or clients to explore my work and learn more about my technical expertise.
+        </p>
+        <ul class="project-features">
+          <li>The portfolio has a sleek, minimalist design that reflects my development style. It features a smooth layout with sections like About Me, Projects, Skills, and Contact.</li>
+          <li>The portfolio highlights key projects I’ve worked on, such as web applications, using clear descriptions and images to illustrate the functionality and technologies involved in each project.</li>
+          <li>Included a contact form that allows potential employers or clients to reach out to me directly via email.</li>
+        </ul>
+        <div class="project-link-container">
+          <button class="github-button" onclick="window.open('https://github.com/SubashR22?tab=repositories', '_blank')">
+            <i class="fab fa-github"></i> GitHub
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="contact-title">
+      <h1><i class="fas fa-headset"></i> Get In <span>Touch</span></h1>
+    </div>
+    <div class="contact-container">
+      <img src="contact.jpg" alt="Contact" class="contact-image">
+      <form id="contact-form" class="contact-info" onsubmit="sendMail(event)">
+        <div class="field">
+          <input type="text" id="name" name="name" placeholder="Name" required>
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="field">
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="field">
+          <input type="tel" id="number" name="number" placeholder="Phone" required>
+          <i class="fas fa-phone-alt"></i>
+        </div>
+        <div class="message">
+          <textarea name="message" id="message" placeholder="Message" required></textarea>
+          <i class="fas fa-comment-dots"></i>
+        </div>
+        <div class="button">
+          <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>Subash's Portfolio</h2>
+        <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p>📞 9342908046</p>
+        <p>✉️ subashravi2203@gmail.com</p>
+        <p>📍 Salem, India - 636109</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/subashr2203" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+          <a href="https://github.com/SubashR22" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          <a href="mailto:subashravi2203@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
